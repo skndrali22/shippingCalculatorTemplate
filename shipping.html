@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sass/shipping.css">
+        <title>shipping calculator</title>
+    </head>
+    <body>
+        <!-- checkout.liquid -->
+        <div class="form-container">
+            <div class="shipping-heading">
+                <h3>
+                    estimate shipping rates
+                </h3>
+            </div>
+            <form class="shipping-form" id="shipping-calculator-form">
+
+                <div class="labels">
+                    <label for="country">Country/region:</label>
+                    <input type="text" id="country" placeholder="United States" name="country" required>
+        
+                    <label for="state">State:</label>
+                    <input type="text" id="state" placeholder="Georgia" name="state" required>
+        
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" id="zip" placeholder="30179" name="zip" required>
+                    <button class="btn-sbt" type="submit">Calculate Shipping rates</button>
+                </div>
+                
+                <div id="shipping-charges" class="shipping-charges"></div>
+                <div class="shipping-footer">
+                    <p><a href="https://healthyenergyamazinglife.com">https://healthyenergyamazinglife.com</a></p>
+                </div>
+    
+                
+            </form>
+        </div>
+        <script src="shipping.js"></script>
+    </body>
+</html>

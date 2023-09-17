@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.shipping-charges {
+  display: none;
+}
+
+.form-container {
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 2px solid gray;
+}
+.form-container .shipping-heading h3 {
+  text-transform: capitalize;
+}
+.form-container .shipping-form .labels {
+  display: flex;
+  flex-direction: column;
+}
+.form-container .shipping-form .labels input {
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+.form-container .shipping-form .labels input::-moz-placeholder {
+  color: black;
+  font-weight: bold;
+}
+.form-container .shipping-form .labels input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.form-container .shipping-form .labels #zip {
+  background-color: rgb(252, 252, 167);
+}
+.form-container .shipping-form .labels .btn-sbt {
+  padding: 14px;
+  font-size: 12px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  text-transform: capitalize;
+  background-color: #EF7B00;
+}
+.form-container .shipping-form .shipping-charges {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.form-container .shipping-form .shipping-footer p {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+.form-container .shipping-form .shipping-footer p a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=shipping.css.map */
